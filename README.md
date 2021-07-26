@@ -15,7 +15,7 @@ Note: The command lines given in this document are for UNIX-based terminals.
 
 Start:
 
-````
+```
 docker-compose up
 ```
 
@@ -62,7 +62,7 @@ This exported database is a Job management system with user authentication. It c
 
 The database model is the following:
 
-![Database model](scripts/jhipster-jdl.png)
+![Database model](scripts/2-jobs/jhipster-jdl.png)
 
 Please note that besides this models, you will find tables related to authentication and authorization (with roles):
 
@@ -93,4 +93,3 @@ docker exec -i mysql-playground-girlcode_db_1 mysql -u girlcode --password=mypas
 - https://www.reddit.com/r/bigquery/wiki/datasets
 - https://data.europa.eu/en
 - https://github.com/awesomedata/awesome-public-datasets
-````
